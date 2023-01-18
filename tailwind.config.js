@@ -2,7 +2,18 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'fira' : 'Fira Code',
+        'playfair' : 'Playfair Display'
+      },
+      colors: {
+        'orange-primary' : '#ff5331',
+        'text-secondary' : '#737373'
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require("daisyui")
+  ],
 }

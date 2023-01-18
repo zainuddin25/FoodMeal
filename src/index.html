@@ -1,13 +1,76 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700&family=Playfair+Display:wght@700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<body class=" bg-white">
+    
+    <div class="w-screen h-full">
+        <div class="container mx-auto flex justify-between items-center px-4 py-6 bg-white fixed top-0 z-50">
+            <div>
+                <p class="font-fira text-xl text-black" style="font-weight: 700;"><span><</span>Zaan<span class="text-orange-primary">Basyar</span><span>/></span></p>
+            </div>
+            <ul class="flex justify-center items-center gap-6">
+                <li class="text-sm font-medium text-black">
+                    <a href="#">
+                        Home
+                    </a>
+                </li>
+                <li class="text-sm font-medium text-black">
+                    <a href="#">
+                        Review
+                    </a>
+                </li>
+                <li class="text-sm font-medium text-black">
+                    <a href="#">
+                        About Us
+                    </a>
+                </li>
+                <li class="text-sm font-medium text-black">
+                    <a href="#">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+            <div class="flex justify-center items-center gap-3">
+                <button class="border-2 px-6 py-2 text-xs border-orange-primary rounded-md text-orange-primary font-semibold hover:bg-orange-primary hover:text-white duration-200">Sign In</button>
+                <button class="border-2 px-6 py-2 text-xs border-orange-primary rounded-md text-white font-semibold bg-orange-primary">Sign Up</button>
+            </div>
+        </div>
+
+        <div class="container mx-auto h-screen px-4 flex justify-center items-center relative">
+            <div class="w-2/4 mx-auto text-center">
+                <p class="text-base text-black">Quality Food 👌</p>
+                <h1 class="font-playfair text-6xl py-6 text-black">Your Favorite Food Delivery Partner</h1>
+                <p class="text-sm text-text-secondary pb-10">
+                    The food at your doorstep. Why starve when you have us. You hunger partner. Straight out of the oven to your doorstep. We are provideing the best and quality food to your house
+                </p>
+                <div class="w-3/4 mx-auto px-4 py-2 shadow-md rounded-xl flex justify-between items-center gap-2">
+                    <input type="text" class="outline-none py-2 w-3/4 text-sm bg-white text-black" placeholder="Enter your delivery location">
+                    <button class="text-sm py-3 bg-orange-primary w-1/4 rounded-lg font-semibold text-white">Discover</button>
+                </div>
+            </div>
+            <img src="/assets/hamburger.png" class="absolute top-60 right-72 rotate-12 w-16" />
+            <img src="/assets/pizza.png" class="absolute top-64 left-72 w-16 rotate-180" />
+        </div>
+
+        <div class="w-3/4 mx-auto py-20 flex justify-center">
+            <div class="w-2/4 mx-auto text-center">
+                <p class="text-base text-black">Quality Food 👌</p>
+                <h1 class="font-playfair text-4xl py-6 text-black">Explore by category</h1>
+                <p class="text-sm text-text-secondary pb-10">
+                    The food at your doorstep. Why starve when you have us. You hunger partner. Straight out of the oven to your doorstep.
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
 </body>
 </html>
