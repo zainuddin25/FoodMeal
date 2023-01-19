@@ -9,3 +9,7 @@ body, html {
 body::-webkit-scrollbar {
     display: none;
 }
+
+#email-input::-webkit-input-placeholder {
+    color: #737373
+}
